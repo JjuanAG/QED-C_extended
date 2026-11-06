@@ -61,3 +61,33 @@ for benchmark in benchmarks:
             exec_args["exec_options"]["optimization_level"] = optimization_level  # TODO: The optimization level is not yet showing in the plots
             print(f"  - Optimization level: {optimization_level}")
             benchmark.run(**app_args, **exec_args, draw_circuits=False)  # TODO: we still have to take into account the specific arguments for each benchmark, as they may have different required parameters.
+
+
+
+# Loop over backend first and then sweep over optimization level and last benchmark.
+# export the data_suffix variable to set data_suffix = optimization_level. This way, the data files will not be overwritten when running the same benchmark with different optimization levels. The data_suffix variable is used in the qedclib/qiskit/execute.py file to set the data file name.
+
+# Example:
+#  fake_sheerbrooke
+#     - optimization_level 0
+#         - benchmark 1
+
+# Or with a better structure:
+#  fake_sheerbrooke
+#     -benchmark 1
+#         - optimization_level 0
+
+# during the for loop over the benchmark, do data_suffix = backend_name. Then when looping over the optimization level, do data_suffix = backend_name + "_opt" + str(optimization_level). This way, the data files will not be overwritten when running the same benchmark with different optimization levels. The data_suffix variable is used in the qedclib/qiskit/execute.py file to set the data file name.
+# As an alternative, after the loops are done running, we could take the files and structure them as we want.
+
+
+# Extra: Implement the benchmarks in parallel using multiprocessing to save time.
+
+
+# Implement script to extract the information from the json files that we want. For example:
+# w.r.t to a single benchmark (e.g. dj_benchmark), create a plot then w.r.t to the different backends and optimizaiton levels for the different fidelities
+
+
+# add the metric: avg_tr_n2qs to the plots (Balken Plots)
+# learn how exactly the metrics work
+# Think about placong the plots one next to the other to compare optimization levels
