@@ -1,0 +1,527 @@
+{
+  "Bernstein-Vazirani (1)": {
+    "api": "qiskit",
+    "backend_id": "fake_auckland",
+    "circuit_metrics": null,
+    "end_time": 1793763117.5318751,
+    "group_metrics": {
+      "avg_create_times": [
+        0.002,
+        0.005,
+        0.002,
+        0.002,
+        0.003,
+        0.002
+      ],
+      "avg_depths": [
+        6.0,
+        7.0,
+        6.0,
+        7.0,
+        7.0,
+        7.0
+      ],
+      "avg_elapsed_times": [
+        0.031,
+        0.035,
+        0.05,
+        0.191,
+        0.377,
+        0.316
+      ],
+      "avg_exec_creating_times": [
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001
+      ],
+      "avg_exec_running_times": [
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001
+      ],
+      "avg_exec_times": [
+        0.001,
+        0.001,
+        0.002,
+        0.007,
+        0.015,
+        0.012
+      ],
+      "avg_exec_validating_times": [
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001
+      ],
+      "avg_fidelities": [
+        0.991,
+        0.954,
+        0.968,
+        0.952,
+        0.942,
+        0.929
+      ],
+      "avg_hf_fidelities": [
+        0.993,
+        0.96,
+        0.97,
+        0.953,
+        0.943,
+        0.93
+      ],
+      "avg_tr_depths": [
+        6.0,
+        7.0,
+        6.0,
+        7.0,
+        7.0,
+        7.0
+      ],
+      "avg_tr_n2qs": [
+        1.333,
+        1.667,
+        1.333,
+        1.667,
+        2.0,
+        2.333
+      ],
+      "avg_tr_xis": [
+        0.116,
+        0.106,
+        0.069,
+        0.07,
+        0.069,
+        0.072
+      ],
+      "avg_xis": [
+        0.141,
+        0.142,
+        0.099,
+        0.106,
+        0.106,
+        0.114
+      ],
+      "groups": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "job_ids": [
+        [
+          "3e71dffb-cb2d-45da-b355-7bfcb51f33fb",
+          "3e71dffb-cb2d-45da-b355-7bfcb51f33fb",
+          "3e71dffb-cb2d-45da-b355-7bfcb51f33fb"
+        ],
+        [
+          "3e71dffb-cb2d-45da-b355-7bfcb51f33fb",
+          "3e71dffb-cb2d-45da-b355-7bfcb51f33fb",
+          "3e71dffb-cb2d-45da-b355-7bfcb51f33fb"
+        ],
+        [
+          "3e71dffb-cb2d-45da-b355-7bfcb51f33fb",
+          "3e71dffb-cb2d-45da-b355-7bfcb51f33fb",
+          "3e71dffb-cb2d-45da-b355-7bfcb51f33fb"
+        ],
+        [
+          "3e71dffb-cb2d-45da-b355-7bfcb51f33fb",
+          "3e71dffb-cb2d-45da-b355-7bfcb51f33fb",
+          "3e71dffb-cb2d-45da-b355-7bfcb51f33fb"
+        ],
+        [
+          "3e71dffb-cb2d-45da-b355-7bfcb51f33fb",
+          "3e71dffb-cb2d-45da-b355-7bfcb51f33fb",
+          "3e71dffb-cb2d-45da-b355-7bfcb51f33fb"
+        ],
+        [
+          "3e71dffb-cb2d-45da-b355-7bfcb51f33fb",
+          "3e71dffb-cb2d-45da-b355-7bfcb51f33fb",
+          "3e71dffb-cb2d-45da-b355-7bfcb51f33fb"
+        ]
+      ],
+      "std_create_times": [
+        0.0,
+        0.001,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "std_elapsed_times": [
+        0.002,
+        0.003,
+        0.002,
+        0.012,
+        0.036,
+        0.003
+      ],
+      "std_exec_times": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.001,
+        0.0
+      ],
+      "std_fidelities": [
+        0.004,
+        0.009,
+        0.005,
+        0.012,
+        0.019,
+        0.01
+      ],
+      "std_hf_fidelities": [
+        0.003,
+        0.008,
+        0.005,
+        0.012,
+        0.019,
+        0.009
+      ]
+    },
+    "start_time": 1793763126.7334328
+  },
+  "Deutsch-Jozsa": {
+    "api": "qiskit",
+    "backend_id": "fake_auckland",
+    "circuit_metrics": null,
+    "end_time": 1793762679.3346453,
+    "group_metrics": {
+      "avg_create_times": [
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.002,
+        0.001
+      ],
+      "avg_depths": [
+        7.0,
+        8.0,
+        8.0,
+        9.0,
+        10.0,
+        10.0
+      ],
+      "avg_elapsed_times": [
+        0.048,
+        0.066,
+        0.081,
+        0.22,
+        0.403,
+        0.63
+      ],
+      "avg_exec_creating_times": [
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001
+      ],
+      "avg_exec_running_times": [
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001
+      ],
+      "avg_exec_times": [
+        0.001,
+        0.001,
+        0.002,
+        0.005,
+        0.009,
+        0.014
+      ],
+      "avg_exec_validating_times": [
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001,
+        0.001
+      ],
+      "avg_fidelities": [
+        0.987,
+        0.96,
+        0.941,
+        0.923,
+        0.883,
+        0.894
+      ],
+      "avg_hf_fidelities": [
+        0.99,
+        0.965,
+        0.945,
+        0.925,
+        0.885,
+        0.895
+      ],
+      "avg_tr_depths": [
+        7.0,
+        8.0,
+        8.0,
+        9.0,
+        10.0,
+        10.0
+      ],
+      "avg_tr_n2qs": [
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0,
+        3.5
+      ],
+      "avg_tr_xis": [
+        0.072,
+        0.072,
+        0.077,
+        0.076,
+        0.079,
+        0.078
+      ],
+      "avg_xis": [
+        0.084,
+        0.088,
+        0.1,
+        0.1,
+        0.107,
+        0.106
+      ],
+      "groups": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "job_ids": [
+        [
+          "cf6ee3af-1bdf-48fc-82e3-9b3f4eed3ef5",
+          "cf6ee3af-1bdf-48fc-82e3-9b3f4eed3ef5"
+        ],
+        [
+          "cf6ee3af-1bdf-48fc-82e3-9b3f4eed3ef5",
+          "cf6ee3af-1bdf-48fc-82e3-9b3f4eed3ef5"
+        ],
+        [
+          "cf6ee3af-1bdf-48fc-82e3-9b3f4eed3ef5",
+          "cf6ee3af-1bdf-48fc-82e3-9b3f4eed3ef5"
+        ],
+        [
+          "cf6ee3af-1bdf-48fc-82e3-9b3f4eed3ef5",
+          "cf6ee3af-1bdf-48fc-82e3-9b3f4eed3ef5"
+        ],
+        [
+          "cf6ee3af-1bdf-48fc-82e3-9b3f4eed3ef5",
+          "cf6ee3af-1bdf-48fc-82e3-9b3f4eed3ef5"
+        ],
+        [
+          "cf6ee3af-1bdf-48fc-82e3-9b3f4eed3ef5",
+          "cf6ee3af-1bdf-48fc-82e3-9b3f4eed3ef5"
+        ]
+      ],
+      "std_create_times": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.001,
+        0.0
+      ],
+      "std_elapsed_times": [
+        0.001,
+        0.005,
+        0.017,
+        0.094,
+        0.154,
+        0.068
+      ],
+      "std_exec_times": [
+        0.0,
+        0.0,
+        0.0,
+        0.002,
+        0.003,
+        0.001
+      ],
+      "std_fidelities": [
+        0.0,
+        0.02,
+        0.034,
+        0.033,
+        0.054,
+        0.046
+      ],
+      "std_hf_fidelities": [
+        0.0,
+        0.018,
+        0.032,
+        0.032,
+        0.053,
+        0.046
+      ]
+    },
+    "start_time": 1793762741.4627228
+  },
+  "Hidden Shift": {
+    "api": "qiskit",
+    "backend_id": "fake_auckland",
+    "circuit_metrics": null,
+    "end_time": 1793763648.1653714,
+    "group_metrics": {
+      "avg_create_times": [
+        0.002,
+        0.003,
+        0.003,
+        0.004
+      ],
+      "avg_depths": [
+        8.0,
+        8.0,
+        8.0,
+        8.0
+      ],
+      "avg_elapsed_times": [
+        0.305,
+        0.483,
+        2.531,
+        4.144
+      ],
+      "avg_exec_creating_times": [
+        0.001,
+        0.001,
+        0.001,
+        0.001
+      ],
+      "avg_exec_running_times": [
+        0.001,
+        0.001,
+        0.001,
+        0.001
+      ],
+      "avg_exec_times": [
+        0.001,
+        0.002,
+        0.011,
+        0.018
+      ],
+      "avg_exec_validating_times": [
+        0.001,
+        0.001,
+        0.001,
+        0.001
+      ],
+      "avg_fidelities": [
+        0.964,
+        0.911,
+        0.885,
+        0.893
+      ],
+      "avg_hf_fidelities": [
+        0.973,
+        0.917,
+        0.887,
+        0.893
+      ],
+      "avg_tr_depths": [
+        16.0,
+        17.0,
+        16.0,
+        17.0
+      ],
+      "avg_tr_n2qs": [
+        2.0,
+        4.0,
+        6.0,
+        8.0
+      ],
+      "avg_tr_xis": [
+        0.091,
+        0.088,
+        0.094,
+        0.094
+      ],
+      "avg_xis": [
+        0.189,
+        0.215,
+        0.201,
+        0.223
+      ],
+      "groups": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "job_ids": [
+        [
+          "4ecead30-37b0-4d20-b317-1226e6ed0047",
+          "4ecead30-37b0-4d20-b317-1226e6ed0047",
+          "4ecead30-37b0-4d20-b317-1226e6ed0047"
+        ],
+        [
+          "4ecead30-37b0-4d20-b317-1226e6ed0047",
+          "4ecead30-37b0-4d20-b317-1226e6ed0047",
+          "4ecead30-37b0-4d20-b317-1226e6ed0047"
+        ],
+        [
+          "4ecead30-37b0-4d20-b317-1226e6ed0047",
+          "4ecead30-37b0-4d20-b317-1226e6ed0047",
+          "4ecead30-37b0-4d20-b317-1226e6ed0047"
+        ],
+        [
+          "4ecead30-37b0-4d20-b317-1226e6ed0047",
+          "4ecead30-37b0-4d20-b317-1226e6ed0047",
+          "4ecead30-37b0-4d20-b317-1226e6ed0047"
+        ]
+      ],
+      "std_create_times": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "std_elapsed_times": [
+        0.006,
+        0.011,
+        0.04,
+        0.08
+      ],
+      "std_exec_times": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "std_fidelities": [
+        0.004,
+        0.008,
+        0.006,
+        0.012
+      ],
+      "std_hf_fidelities": [
+        0.003,
+        0.007,
+        0.005,
+        0.012
+      ]
+    },
+    "start_time": 1793763661.7979672
+  }
+}
